@@ -3,19 +3,24 @@
 ::before {
   box-sizing: border-box;
 }
+
 body {
-  align-items: center;
   background: #000;
-  display: flex;
-  flex-wrap: wrap;
   margin: auto;
 }
 
-body img {
+#images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#images img {
   border-radius: 8px;
-  flex-grow: 2;
-  height: auto;
-  min-width: 320px;
+  flex-grow: 1.5;
+  height: 360px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
   padding: 4px;
-  width: 25%;
+  width: auto;
 }
