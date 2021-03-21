@@ -24,3 +24,11 @@ body {
   padding: 4px;
   width: auto;
 }
+
+.one-third {
+  object-position: 50% 33.3%;
+}
+
+.one-fourth {
+  object-position: 50% 25%;
+}
